@@ -23,3 +23,21 @@ function sum(num, ...values) {
 
 sum(1, 1, 2, 3, 4);
 
+
+// json spread operator
+
+function solution(json1, json2) {
+    let data = {...json1, ...json2}
+    return data
+}
+
+console.log(solution(
+    {
+    name: "Mr. Michi",
+    food: "Pescado"
+    },
+    {
+        age: 12,
+        color: "Blanco"
+    }
+));
