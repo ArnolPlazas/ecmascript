@@ -19,5 +19,7 @@
   "bugs": {
     "url": "https://github.com/ArnolPlazas/ecmascript/issues"
   },
-  "homepage": "https://github.com/ArnolPlazas/ecmascript#readme"
+  "homepage": "https://github.com/ArnolPlazas/ecmascript#readme",
+  "type": "module"
+
 }
